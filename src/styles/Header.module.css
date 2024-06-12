@@ -1,0 +1,26 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.nav {
+    display: flex;
+    gap: 20px;
+}
+
+.navItem {
+    cursor: pointer;
+    font-weight: 500;
+    color: #D41A3C;
+}
+
+.navItem:hover {
+    text-decoration: underline;
+}
